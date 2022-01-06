@@ -52,3 +52,9 @@ h1{
     padding: 8px 28px;
     border-radius: 5px;
 }
+footer{
+    font-family: Shadows Into Light;
+    text-align: center;
+    background-color: rgb(243, 120, 98);
+
+}
