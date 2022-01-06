@@ -43,3 +43,12 @@ h1{
 .mission-item img{
     width: 90%;
 }
+.tomato-color{
+    color: orangered;
+}
+.link-button2{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(230, 144, 144), rgb(137, 161, 233));
+    padding: 8px 28px;
+    border-radius: 5px;
+}
