@@ -4,6 +4,9 @@ body{
 h1{
     font-size: 50px;
 }
+h3{
+    font-size: 30px;
+}
 .royalblue-color{
     color: rgb(34, 54, 114);
 }
@@ -22,6 +25,7 @@ h1{
 }
 .link-button{
     text-decoration: none; 
+    color: white;
     background-image: linear-gradient(rgb(223, 155, 28), rgb(250, 85, 56));
     padding: 8px 28px;
     border-radius: 5px;
@@ -48,7 +52,8 @@ h1{
 }
 .link-button2{
     text-decoration: none;
-    background-image: linear-gradient(rgb(230, 144, 144), rgb(137, 161, 233));
+    color: white;
+    background-image: linear-gradient(rgb(238, 48, 48), rgb(32, 56, 129));
     padding: 8px 28px;
     border-radius: 5px;
 }
@@ -57,4 +62,22 @@ footer{
     text-align: center;
     background-color: rgb(243, 120, 98);
 
+}
+.top-box{
+    margin-left: 10px;
+    padding: 5px;
+    background-image: linear-gradient(white rgb(39, 39, 131));
+}
+.text-head{
+    text-align: center;
+    font-size: 30px;
+}
+.bg-vision{
+    background-color: rgb(255, 201, 192);
+}
+.bg-mission{
+    background-color: rgb(167, 187, 247);
+}
+.bg-goals{
+    background-color: rgb(175, 250, 175);
 }
