@@ -2,7 +2,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
+    padding: 5px;
+    border-left: 7px solid rgb(182, 41, 41);
+    border-radius: 10px;
+    
 }
 h3{
     font-size: 30px;
@@ -13,6 +17,19 @@ h3{
 .orange-color{
     color: rgb(231, 152, 4);
 }
+.devolopment-color{
+    color: orangered;
+}
+
+.bg-vision{
+    background-color: rgb(255, 201, 192);
+}
+.bg-mission{
+    background-color: rgb(167, 187, 247);
+}
+.bg-goals{
+    background-color: rgb(175, 250, 175);
+}
 .flexible-container{
     display: flex;
 }
@@ -21,7 +38,14 @@ h3{
     padding: 4%;
 }
 .half-width img{
+    width: 80%;
+}
+.mission-item img{
     width: 90%;
+}
+.text-head{
+    text-align: center;
+    font-size: 30px;
 }
 .link-button{
     text-decoration: none; 
@@ -30,6 +54,14 @@ h3{
     padding: 8px 28px;
     border-radius: 5px;
 }
+.link-button2{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(238, 48, 48), rgb(32, 56, 129));
+    padding: 8px 28px;
+    border-radius: 5px;
+}
+
 .My-mission{
     padding: 50px;
 }
@@ -44,40 +76,12 @@ h3{
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
 }
-.mission-item img{
-    width: 90%;
-}
-.tomato-color{
-    color: orangered;
-}
-.link-button2{
-    text-decoration: none;
-    color: white;
-    background-image: linear-gradient(rgb(238, 48, 48), rgb(32, 56, 129));
-    padding: 8px 28px;
-    border-radius: 5px;
-}
+
+
 footer{
     font-family: Shadows Into Light;
     text-align: center;
     background-color: rgb(243, 120, 98);
 
 }
-.top-box{
-    margin-left: 10px;
-    padding: 5px;
-    background-image: linear-gradient(white rgb(39, 39, 131));
-}
-.text-head{
-    text-align: center;
-    font-size: 30px;
-}
-.bg-vision{
-    background-color: rgb(255, 201, 192);
-}
-.bg-mission{
-    background-color: rgb(167, 187, 247);
-}
-.bg-goals{
-    background-color: rgb(175, 250, 175);
-}
+
